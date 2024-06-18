@@ -1,0 +1,19 @@
+{
+  "name": "chat-app-using-socket",
+  "version": "1.0.0",
+  "description": "uses socket.io for making real time socket and connect user using bi-direction connection",
+  "main": "index.js",
+  "scripts": {
+    "start" : "node index.js" ,
+    "dev" : "nodemon index.js" ,
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dipankar Kuamr Singh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "socket.io": "^4.6.1"
+  }
+}
+
